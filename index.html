@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Count down Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h2 id="title">A JS mini-web app that select certain holidays then return the date and number of days before that holiday</h3>
+      <form>
+        <fieldset>
+          <legend>Holidays</legend>
+        <div>
+          <select id="holidays">
+              <option value="holy_week">Holy Week</option>
+              <option value="independence">Independence</option>
+              <option value="christmas">Christmas</option>
+              <option value="new_year">New Year</option>
+          </select>
+        </div>
+        </fieldset>
+      </form>
+      <fieldset>
+        <legend>Date and Days Before</legend>
+        <h3 id="dateArea"></h3>
+        <div id="message"></div>
+      </fieldset>
+      <div id="theButton"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+#wrapper {
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
